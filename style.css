@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    padding-top: 10px;
+    border: 2px solid silver;
+    background-color: rgb(243, 242, 242);
+    box-shadow: 0px 5px 10px ;
+
+}
+.nav{
+    display: flex;
+   justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.nav ul{
+    display: flex;
+    display: flex;
+    gap: 85px;
+  
+}
+.nav ul li{
+
+    list-style: none;
+   
+}
+
+.nav ul li a{
+text-decoration: none;
+  
+  transition-duration: 0.5s;
+}
+.nav ul li a:hover{
+    border-bottom: 4px solid red
+   
+}
+
+.nav ul li a input{
+padding: 5px 10px 10px 70px;
+width: 200px;
+border-radius: 10px;
+border:none;
+
+}
+.nav img{
+    height: 35px;
+    width: 40px;
+}
+
+.nav ul a i{
+ color: black;
+  height: 50px;
+    width: 60px;
+}
+.mainbody{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.part{
+  
+    width: 100%;
+    height: 80vh;
+    border: transparent;
+}
+.part1 h2{
+    padding-top: 30px;
+    font-size: 50px;
+    color: orange;
+    font-weight: 900;
+    margin-top: 40px;
+}
+.part1 p{
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 50px;
+     margin-top: 40px;
+}
+.part1 span{
+    color: orange;
+    font-weight: bold;
+}
+.part1 button{
+    margin-top: 30px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    border: transparent;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.part1 button:hover{
+    background-color: orange;
+}
+.part2 img{
+    padding-top: 20px;
+    height: 70vh;
+    width: 50vw;
+}
+.specilist{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: orange;
+}
+.mainbox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.mainbox div{
+    border: transparent;
+    height: 40vh;
+    width: 30vw;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px;
+}
+.mainbox div:hover{
+     box-shadow: 0px 10px 15px;
+
+}
+.mainbox div img{
+    border: 2px solid black;
+    height: 120px;
+    width: 120px;
+    margin-top: 30px;
+    border-radius: 50%;
+    background-color: red;
+     object-fit: cover;
+    
+}
+.service{
+    width: 100%;
+    height: auto;
+   
+}
+h1{
+     text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: orange;
+}
+.classService{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+.classService div{
+    margin-top: 20px;
+}
+.classService img{
+    height: 150px;
+    width: 150px;
+    border: transparent;
+    background-color: red;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.classService img:hover{
+   box-shadow: 0px 10px 15px;
+}
+.contract{
+    width: 100%;
+    height: 100%;
+
+   
+}
+.Toconnect{
+    justify-content: center;
+    align-items: center;
+   
+}
+.Toconnect div{
+ width: 70%;
+ height: 10vh;
+ border: 2px solid black;
+ margin: 0 auto;
+ margin-top: 10px;
+ border-radius: 10px;
+ text-align: center;
+ border: transparent;
+}
+.Toconnect div:hover{
+     box-shadow: 0px 10px 15px;
+}
+.AboutUs{
+    width: 100%;
+    height: auto;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.icon p{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.facebook{
+  font-size: 70px;
+  font-weight: 1200;
+   color: #1877F2;
+   text-align: center;
+   margin-bottom: 30px;
+}
+.facebook:hover{
+     box-shadow: 0px 10px 15px black;
+}
+.whatapp{
+     font-size: 70px;
+  font-weight: 1200;
+color: #25D366;
+ text-align: center;
+  margin-bottom: 30px;
+}
+.whatapp:hover{
+     box-shadow: 0px 10px 15px black;
+}
+.instagram{
+    font-size: 70px;
+  font-weight: 1200;
+   color: #E4405F;
+    text-align: center;
+     margin-bottom: 30px;
+}
+.instagram:hover{
+     box-shadow: 0px 10px 15px black;
+}
+.linkedin {
+      font-size: 70px;
+  font-weight: 1200;
+   color: #0A66C2;
+    text-align: center;
+     margin-bottom: 30px;
+}
+.linkedin:hover{
+     box-shadow: 0px 10px 15px black;
+}
+.twitter{
+      font-size: 70px;
+  font-weight: 1200;
+   text-align: center;
+   color: #000000;
+ margin-bottom: 30px;
+}
+.twitter:hover{
+     box-shadow: 0px 10px 15px;
+}
+
+/* =========================================================
+   NEW CODE BELOW — original CSS above is untouched.
+   Styles for the hamburger button / toast that script.js
+   injects into the page, plus mobile media queries.
+   ========================================================= */
+
+.hamburger{
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    order: 2;
+}
+.hamburger span{
+    width: 26px;
+    height: 3px;
+    background: black;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+.hamburger.active span:nth-child(1){ transform: translateY(8px) rotate(45deg); }
+.hamburger.active span:nth-child(2){ opacity: 0; }
+.hamburger.active span:nth-child(3){ transform: translateY(-8px) rotate(-45deg); }
+
+.cart-badge{
+    font-size: 12px;
+    background: red;
+    color: #fff;
+    border-radius: 50%;
+    padding: 1px 6px;
+    margin-left: 4px;
+}
+
+.toast{
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background: #222;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    z-index: 999;
+}
+.toast.show{
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+/* Tablets */
+@media (max-width: 1024px){
+    .part2 img{ width: 60vw; }
+    .mainbox div{ width: 45vw; }
+    .nav ul{ gap: 30px; }
+}
+
+/* Mobile phones */
+@media (max-width: 768px){
+    .navbar{ height: auto; padding: 10px 0; }
+    .nav{ flex-wrap: wrap; justify-content: space-between; padding: 0 15px; }
+    .hamburger{ display: flex; }
+
+    .nav ul{ flex-wrap: wrap; width: 100%; gap: 0; }
+    .nav ul li{
+        display: none;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        border-top: 1px solid #ddd;
+    }
+    .nav ul.active li{ display: block; }
+    .nav ul li a input{ padding: 8px 10px; width: 90%; }
+
+    .mainbody{ flex-direction: column; height: auto; }
+    .part{ height: auto; padding: 20px 15px; }
+    .part1 h2{ font-size: 32px; margin-top: 10px; padding-top: 0; }
+    .part1 p{ font-size: 16px; line-height: 30px; margin-top: 15px; }
+    .part2 img{ width: 90vw; height: auto; padding-top: 10px; }
+
+    .specilist{ height: auto; padding-bottom: 20px; }
+    h1{ font-size: 30px; margin-top: 30px; }
+    .mainbox{ flex-direction: column; align-items: center; }
+    .mainbox div{ width: 85vw; height: auto; padding-bottom: 15px; }
+
+    .classService{ flex-direction: column; align-items: center; }
+
+    .Toconnect div{ width: 90%; height: auto; padding: 10px; }
+
+    .icon{ flex-direction: column; }
+    .facebook, .whatapp, .instagram, .linkedin, .twitter{ font-size: 50px; margin-bottom: 15px; }
+}
+
+/* Small phones */
+@media (max-width: 400px){
+    .part1 h2{ font-size: 26px; }
+    .part1 button{ width: 160px; height: 50px; font-size: 16px; }
+    h1{ font-size: 24px; }
+}
